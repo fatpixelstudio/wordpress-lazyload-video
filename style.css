@@ -1,0 +1,27 @@
+/* TODO: add responsiveness */
+
+a.lazyload-video {
+	background: #333;
+	width: 600px;
+	height: 315px;
+	max-width: 100%;
+	background-size: cover;
+	text-decoration: none;
+	display: inline-block;
+	/* Hide text */
+	overflow: hidden;
+	white-space: nowrap;
+	text-indent: 200%;
+}
+a.llazyload-video:hover {
+	text-decoration: none;
+}
+.lazyload-video-div {
+	max-width: 100%;
+	background: url(images/play-youtube.png) center center no-repeat;
+	position: absolute;
+	opacity: 0.8;
+}
+.lazyload-video-div:hover {
+	opacity: 1;
+}
